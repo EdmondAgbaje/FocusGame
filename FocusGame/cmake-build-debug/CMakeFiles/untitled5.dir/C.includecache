@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/35389/CLionProjects/FocusGame/game_init.c
+game_init.h
+C:/Users/35389/CLionProjects/FocusGame/game_init.h
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+
+C:/Users/35389/CLionProjects/FocusGame/game_init.h
+stdbool.h
+-
+

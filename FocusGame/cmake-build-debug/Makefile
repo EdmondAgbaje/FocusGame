@@ -149,6 +149,33 @@ game_init.c.s:
 	$(MAKE) -f CMakeFiles\untitled5.dir\build.make CMakeFiles/untitled5.dir/game_init.c.s
 .PHONY : game_init.c.s
 
+game_movement.obj: game_movement.c.obj
+
+.PHONY : game_movement.obj
+
+# target to build an object file
+game_movement.c.obj:
+	$(MAKE) -f CMakeFiles\untitled5.dir\build.make CMakeFiles/untitled5.dir/game_movement.c.obj
+.PHONY : game_movement.c.obj
+
+game_movement.i: game_movement.c.i
+
+.PHONY : game_movement.i
+
+# target to preprocess a source file
+game_movement.c.i:
+	$(MAKE) -f CMakeFiles\untitled5.dir\build.make CMakeFiles/untitled5.dir/game_movement.c.i
+.PHONY : game_movement.c.i
+
+game_movement.s: game_movement.c.s
+
+.PHONY : game_movement.s
+
+# target to generate assembly for a file
+game_movement.c.s:
+	$(MAKE) -f CMakeFiles\untitled5.dir\build.make CMakeFiles/untitled5.dir/game_movement.c.s
+.PHONY : game_movement.c.s
+
 input_output.obj: input_output.c.obj
 
 .PHONY : input_output.obj
@@ -215,6 +242,9 @@ help:
 	@echo ... game_init.obj
 	@echo ... game_init.i
 	@echo ... game_init.s
+	@echo ... game_movement.obj
+	@echo ... game_movement.i
+	@echo ... game_movement.s
 	@echo ... input_output.obj
 	@echo ... input_output.i
 	@echo ... input_output.s

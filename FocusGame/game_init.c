@@ -9,7 +9,7 @@
 
 
 
-void initialize_players(player players[PLAYERS_NUM]) {
+void initialize_players(player players[PLAYERS_NUM]) {//function initialises all the aspects to begin the game
     int i,j;
     players[0].player_color = RED;//this initialises player 1 as red
     players[1].player_color = GREEN;//this initialises player 2 as green
@@ -30,6 +30,9 @@ void initialize_players(player players[PLAYERS_NUM]) {
     }
     printf("%s is RED,\n%s is GREEN\n",players[0].name,players[1].name);
     printf("\n");
+    printf("%s will go first to start the game\n",players[0].name);
+    printf("\n");
+
 }
 //Set Invalid Squares (where it is not possible to place stacks)
 set_invalid(square * s){

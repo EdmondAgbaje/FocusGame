@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/untitled5.dir/game_init.c.obj"
+  "CMakeFiles/untitled5.dir/game_movement.c.obj"
   "CMakeFiles/untitled5.dir/input_output.c.obj"
   "CMakeFiles/untitled5.dir/main.c.obj"
   "libuntitled5.dll.a"

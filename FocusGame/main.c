@@ -1,6 +1,8 @@
 #include <stdio.h>
-
 #include "input_output.h"
+#include <stdlib.h>
+#include <stdbool.h>
+
 
 int main() {
 
@@ -14,14 +16,13 @@ int main() {
 
     print_board(board);
 
-   // while(1!=2) {
-       // player *playerPtr = &players[0];
-
-       // if ((playerPtr->player_color) == RED){
-         //   playerPtr==players[1];
-         //   printf("%s goes first\n",players[0].name);
-      //  }
-  //  }
+/*    color playerTurn = RED;
+    if( RED){
+        playerTurn = GREEN;
+        printf("%s's turn to play now",players[1].name);
+    } else{
+        printf("%s's turn to play now"),players[0].name);
+    }*/
 
 
     return 0;

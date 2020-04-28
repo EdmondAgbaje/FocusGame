@@ -80,6 +80,12 @@
 		<Unit filename="C:/Users/35389/CLionProjects/FocusGame/game_init.h">
 			<Option target="untitled5"/>
 		</Unit>
+		<Unit filename="C:/Users/35389/CLionProjects/FocusGame/game_movement.c">
+			<Option target="untitled5"/>
+		</Unit>
+		<Unit filename="C:/Users/35389/CLionProjects/FocusGame/game_movement.h">
+			<Option target="untitled5"/>
+		</Unit>
 		<Unit filename="C:/Users/35389/CLionProjects/FocusGame/input_output.c">
 			<Option target="untitled5"/>
 		</Unit>

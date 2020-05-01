@@ -27,6 +27,7 @@ void initialize_players(player players[PLAYERS_NUM]) {//function initialises all
             if (players[i].name[j] == '\n')
                 players[i].name[j] = '\0';
         }
+
     }
     printf("%s is RED,\n%s is GREEN\n",players[0].name,players[1].name);
     printf("\n");
@@ -35,21 +36,21 @@ void initialize_players(player players[PLAYERS_NUM]) {//function initialises all
 
 }
 //Set Invalid Squares (where it is not possible to place stacks)
-set_invalid(square * s){
+void set_invalid(square * s){
 s->type = INVALID;
 s->stack = NULL;
 s->num_pieces = 0;
 }
 
 //Set Empty Squares (with no pieces/stacks)
-set_empty(square * s){
+void set_empty(square * s){
 s->type = VALID;
 s->stack = NULL;
 s->num_pieces = 0;
 }
 
 //Set squares  with a GREEN piece
-set_green(square * s){
+void set_green(square * s){
 s->type = VALID;
 s->stack = (piece *) malloc (sizeof(piece));
 s->stack->p_color = GREEN;
@@ -58,7 +59,7 @@ s->num_pieces = 1;
 }
 
 //Set squares with a RED piece
-set_red(square * s){
+void set_red(square * s){
 s->type = VALID;
 s->stack = (piece *) malloc (sizeof(piece));
 s->stack->p_color = RED;

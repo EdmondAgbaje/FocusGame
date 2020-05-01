@@ -10,15 +10,23 @@ C:/Users/35389/CLionProjects/FocusGame/game_init.h
 stdbool.h
 -
 
-C:/Users/35389/CLionProjects/FocusGame/game_movement.c
+C:/Users/35389/CLionProjects/FocusGame/game_movement.h
 game_init.h
 C:/Users/35389/CLionProjects/FocusGame/game_init.h
-input_output.h
-C:/Users/35389/CLionProjects/FocusGame/input_output.h
-stdio.h
--
 
 C:/Users/35389/CLionProjects/FocusGame/input_output.h
 game_init.h
 C:/Users/35389/CLionProjects/FocusGame/game_init.h
+
+C:/Users/35389/CLionProjects/FocusGame/main.c
+stdio.h
+-
+input_output.h
+C:/Users/35389/CLionProjects/FocusGame/input_output.h
+game_movement.h
+C:/Users/35389/CLionProjects/FocusGame/game_movement.h
+game_init.h
+C:/Users/35389/CLionProjects/FocusGame/game_init.h
+stdbool.h
+-
 

@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/35389/CLionProjects/FocusGame/game_init.h
+stdbool.h
+-
+
+C:/Users/35389/CLionProjects/FocusGame/game_movement.h
+game_init.h
+C:/Users/35389/CLionProjects/FocusGame/game_init.h
+
+C:/Users/35389/CLionProjects/FocusGame/input_output.h
+game_init.h
+C:/Users/35389/CLionProjects/FocusGame/game_init.h
+
+C:/Users/35389/CLionProjects/FocusGame/main.c
+stdio.h
+-
+input_output.h
+C:/Users/35389/CLionProjects/FocusGame/input_output.h
+game_movement.h
+C:/Users/35389/CLionProjects/FocusGame/game_movement.h
+game_init.h
+C:/Users/35389/CLionProjects/FocusGame/game_init.h
+winner.h
+C:/Users/35389/CLionProjects/FocusGame/winner.h
+stdbool.h
+-
+
+C:/Users/35389/CLionProjects/FocusGame/winner.h
+game_init.h
+C:/Users/35389/CLionProjects/FocusGame/game_init.h
+

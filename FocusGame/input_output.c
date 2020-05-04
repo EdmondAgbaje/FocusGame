@@ -15,7 +15,7 @@
 void print_board(square board[BOARD_SIZE][BOARD_SIZE]){
     printf("****** The Board ******\n");
     printf("---------------------------------\n");
-    printf("| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |\n");
+    printf("| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |\n");//showing players what each number equals on the board
     printf("---------------------------------\n");
     for(int i = 0; i < BOARD_SIZE; i ++){
         for (int j = 0; j < BOARD_SIZE; j++){
@@ -24,8 +24,8 @@ void print_board(square board[BOARD_SIZE][BOARD_SIZE]){
                     printf("|   ");
                 else{
                     if (board[i][j].stack->p_color == GREEN)
-                        printf("| G ");
-                    else printf("| R ");
+                        printf("|%dG ",board[i][j].num_pieces);
+                    else printf("|%dR ",board[i][j].num_pieces);
                 }
             }
             else

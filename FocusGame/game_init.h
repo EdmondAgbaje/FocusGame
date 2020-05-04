@@ -29,12 +29,10 @@ typedef enum square_type {
 typedef struct player{
     //the color associated with the player
     color player_color;
-
+//player characteristics(name,reserved pieces and captured pieces)
     char name[30];
-    int total;
     int captured_pieces;
     int kept_pieces;
-    bool winner;
 
 }player;
 
@@ -71,4 +69,5 @@ void set_invalid(square * s);
 void set_empty(square * s);
 void set_green(square * s);
 void set_red(square * s);
+void gameRules();
 #endif //UNTITLED5_GAME_INIT_H

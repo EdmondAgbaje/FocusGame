@@ -92,7 +92,19 @@
 		<Unit filename="C:/Users/35389/CLionProjects/FocusGame/input_output.h">
 			<Option target="untitled5"/>
 		</Unit>
+		<Unit filename="C:/Users/35389/CLionProjects/FocusGame/keptPiece_movement.c">
+			<Option target="untitled5"/>
+		</Unit>
+		<Unit filename="C:/Users/35389/CLionProjects/FocusGame/keptPiece_movement.h">
+			<Option target="untitled5"/>
+		</Unit>
 		<Unit filename="C:/Users/35389/CLionProjects/FocusGame/main.c">
+			<Option target="untitled5"/>
+		</Unit>
+		<Unit filename="C:/Users/35389/CLionProjects/FocusGame/winner.c">
+			<Option target="untitled5"/>
+		</Unit>
+		<Unit filename="C:/Users/35389/CLionProjects/FocusGame/winner.h">
 			<Option target="untitled5"/>
 		</Unit>
 		<Unit filename="C:/Users/35389/CLionProjects/FocusGame/CMakeLists.txt">

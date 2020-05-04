@@ -203,6 +203,33 @@ input_output.c.s:
 	$(MAKE) -f CMakeFiles\untitled5.dir\build.make CMakeFiles/untitled5.dir/input_output.c.s
 .PHONY : input_output.c.s
 
+keptPiece_movement.obj: keptPiece_movement.c.obj
+
+.PHONY : keptPiece_movement.obj
+
+# target to build an object file
+keptPiece_movement.c.obj:
+	$(MAKE) -f CMakeFiles\untitled5.dir\build.make CMakeFiles/untitled5.dir/keptPiece_movement.c.obj
+.PHONY : keptPiece_movement.c.obj
+
+keptPiece_movement.i: keptPiece_movement.c.i
+
+.PHONY : keptPiece_movement.i
+
+# target to preprocess a source file
+keptPiece_movement.c.i:
+	$(MAKE) -f CMakeFiles\untitled5.dir\build.make CMakeFiles/untitled5.dir/keptPiece_movement.c.i
+.PHONY : keptPiece_movement.c.i
+
+keptPiece_movement.s: keptPiece_movement.c.s
+
+.PHONY : keptPiece_movement.s
+
+# target to generate assembly for a file
+keptPiece_movement.c.s:
+	$(MAKE) -f CMakeFiles\untitled5.dir\build.make CMakeFiles/untitled5.dir/keptPiece_movement.c.s
+.PHONY : keptPiece_movement.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -230,6 +257,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\untitled5.dir\build.make CMakeFiles/untitled5.dir/main.c.s
 .PHONY : main.c.s
 
+winner.obj: winner.c.obj
+
+.PHONY : winner.obj
+
+# target to build an object file
+winner.c.obj:
+	$(MAKE) -f CMakeFiles\untitled5.dir\build.make CMakeFiles/untitled5.dir/winner.c.obj
+.PHONY : winner.c.obj
+
+winner.i: winner.c.i
+
+.PHONY : winner.i
+
+# target to preprocess a source file
+winner.c.i:
+	$(MAKE) -f CMakeFiles\untitled5.dir\build.make CMakeFiles/untitled5.dir/winner.c.i
+.PHONY : winner.c.i
+
+winner.s: winner.c.s
+
+.PHONY : winner.s
+
+# target to generate assembly for a file
+winner.c.s:
+	$(MAKE) -f CMakeFiles\untitled5.dir\build.make CMakeFiles/untitled5.dir/winner.c.s
+.PHONY : winner.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -248,9 +302,15 @@ help:
 	@echo ... input_output.obj
 	@echo ... input_output.i
 	@echo ... input_output.s
+	@echo ... keptPiece_movement.obj
+	@echo ... keptPiece_movement.i
+	@echo ... keptPiece_movement.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... winner.obj
+	@echo ... winner.i
+	@echo ... winner.s
 .PHONY : help
 
 

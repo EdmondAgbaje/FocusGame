@@ -7,7 +7,9 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/35389/CLionProjects/FocusGame/game_init.c" "C:/Users/35389/CLionProjects/FocusGame/cmake-build-debug/CMakeFiles/untitled5.dir/game_init.c.obj"
   "C:/Users/35389/CLionProjects/FocusGame/game_movement.c" "C:/Users/35389/CLionProjects/FocusGame/cmake-build-debug/CMakeFiles/untitled5.dir/game_movement.c.obj"
   "C:/Users/35389/CLionProjects/FocusGame/input_output.c" "C:/Users/35389/CLionProjects/FocusGame/cmake-build-debug/CMakeFiles/untitled5.dir/input_output.c.obj"
+  "C:/Users/35389/CLionProjects/FocusGame/keptPiece_movement.c" "C:/Users/35389/CLionProjects/FocusGame/cmake-build-debug/CMakeFiles/untitled5.dir/keptPiece_movement.c.obj"
   "C:/Users/35389/CLionProjects/FocusGame/main.c" "C:/Users/35389/CLionProjects/FocusGame/cmake-build-debug/CMakeFiles/untitled5.dir/main.c.obj"
+  "C:/Users/35389/CLionProjects/FocusGame/winner.c" "C:/Users/35389/CLionProjects/FocusGame/cmake-build-debug/CMakeFiles/untitled5.dir/winner.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
